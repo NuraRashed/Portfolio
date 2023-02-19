@@ -76,10 +76,9 @@
     }
   
     .logo{
-      margin-top: 10px;
       margin-right: 0%;
       width: 10%;
-      height: 40%;
+      height: 110%;
     }
 
     @media (max-width:1000px){
