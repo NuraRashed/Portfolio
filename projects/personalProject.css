@@ -1,0 +1,89 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.PrjIntroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FDC445;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.PrjTitleContainer {
+   
+
+    background-color: #FDC445;
+    margin-top: 50px;
+    width: 45%;
+    margin-left: 35%;
+    font-family: sans-serif;
+}
+
+
+.PrjTime, .PrjRole {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 5%;
+    left: 20%;
+    font-family: sans-serif;
+  }
+  
+  .PrjRole {
+
+    padding-left: 10%;
+
+  }
+  .bullet::before {
+    content: '\2022';
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* ------------PRJ BACKGROUND ----------- */
+
+.heder{
+    margin-left: 10%;
+}
+.descrption{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* -------------- PRJ DESCRIPTION -------------- */
+.chapter {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8a6d6d;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.center {
+
+margin-left: 45%;
+
+}
+
+
+.collapsible-section {
+    display: none;
+  }
+  .dropdown-btn {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown-btn.active {
+    background-color: #ccc;
+  }
+
+  .readMore{
+   color:rgb(143, 143, 241);
+  }
