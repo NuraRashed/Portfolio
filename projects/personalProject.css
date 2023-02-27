@@ -90,5 +90,11 @@ margin-left: 45%;
 
   .methodesText{
     margin-left: 10%;
-    color:#8a6d6d
+    color:rgb(236, 182, 182);
+  }
+
+  .smallimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
