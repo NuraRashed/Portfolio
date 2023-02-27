@@ -7,7 +7,7 @@ body {
 .PrjIntroContainer {
     display: flex;
     flex-wrap: wrap;
-    background-color: #FDC445;
+    background-color: rgb(236, 182, 182);
     margin-top: 50px;
     width: 100%;
 }
@@ -15,7 +15,7 @@ body {
 .PrjTitleContainer {
    
 
-    background-color: #FDC445;
+    background-color: rgb(236, 182, 182);
     margin-top: 50px;
     width: 45%;
     margin-left: 35%;
@@ -58,7 +58,7 @@ body {
 .chapter {
     display: flex;
     flex-wrap: wrap;
-    background-color: #8a6d6d;
+    background-color: rgb(236, 182, 182);
     margin-top: 50px;
     width: 100%;
     
