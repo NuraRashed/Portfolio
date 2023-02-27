@@ -97,4 +97,7 @@ margin-left: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 30%;
+    width: 30%;
+    margin-left: 30%;
   }
