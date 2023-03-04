@@ -66,7 +66,7 @@ body {
 .chapter {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(236, 182, 182);
+    background-color: #F2DFD7;
     margin-top: 50px;
     width: 100%;
     
@@ -101,6 +101,8 @@ color: #f88d00;
   .methodesText{
     margin-left: 10%;
     color:rgb(236, 182, 182);
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .smallimage{
@@ -144,8 +146,8 @@ color: #f88d00;
   display: flex;
   border-radius: 5px;
   margin-top: 10px;
-  padding-right: 20px;
-  background-color: #7a4d38;
+  padding-right: 30px;
+  background-color: #F2DFD7;
   margin-left: 20%;
   margin-right: 30%;
 }  
