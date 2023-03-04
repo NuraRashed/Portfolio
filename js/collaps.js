@@ -19,12 +19,12 @@ function toggleCollapsibleSection(sectionId, btnId) {
   section.classList.toggle('active');
   if (section.style.display === 'none') {
     section.style.display = 'block';
-    document.getElementById(btnId).innerHTML = "Read less";
+    document.getElementById(btnId).innerHTML = "Read less<i class='dropup-icon'></i>&nbsp;";
 
   } else {
     section.style.display = 'none';
 
-    dropdownBtn.innerHTML = 'Read more';
+    dropdownBtn.innerHTML = "Read more<i class='dropdown-icon'></i>&nbsp;";
   }
 
 

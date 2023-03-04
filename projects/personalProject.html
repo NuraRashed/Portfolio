@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="personalProject.css" />
     <link rel="stylesheet" type="text/css" href="../nav.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-QoErla8WzAUNetPnSsjCQTo7epD8WtIb7XAF4j4lZ7sKT8WtNGrJrMwKKrSZcq+jvKhEaENHcZacn0oyG2Q/0Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Portofolio</title>
 </head>
@@ -51,7 +52,7 @@
         <div class="PrjRole">
             <h3>Rollen</h3>
             <p class="bullet">UI/UX designer</p>
-            <p class="bullet">-</p>
+
         </div>
         <div class="PrjTime">
             <h3> tijdlijn</h3>
@@ -99,7 +100,7 @@
         Het projectplan zorgt ervoor dat het project met succes, op tijd wordt afgerond en wordt voldaan aan de eisen
         van de belanghebbend. Hier kunt u mijn projectplan vinden.
     </p>
-
+    <p class="descrption">Link to pdf doc.<a class="button" href="#">Project plan</a></p>
 
     <!----------------------- chapters ---------------------------->
     <div class="chapter">
@@ -110,7 +111,8 @@
         voor verbetering te identificeren,
         het helpt om de juiste informatie te kunnen halen door verschillende onderzoeken. <a id="readlmAnalyse"
             class="readMore" onclick="toggleCollapsibleSection('analysis-section-collapse','readlmAnalyse')">Read
-            more</a>
+            more<i class="dropdown-icon"></i>
+        </a>
     </p>
 
 
@@ -125,12 +127,13 @@
             informatie te halen.
         </p>
 
-          <!----------------------- vraag 1 ---------------------------->
+        <!----------------------- vraag 1 ---------------------------->
+        <div class="colorBox">
+            <h3 > - Wat voor tools/ Programmeertalen zijn er om een portfolio te maken? <a id="q1"
+                    class="readMore" onclick="toggleCollapsibleSection('q1-collapse', 'q1')">Read more<i class="dropdown-icon"></i>&nbsp;</a></h3>
 
-        <h3 class="heder"> - Wat voor tools/ Programmeertalen zijn er om een portfolio te maken? <a id="q1"
-                class="readMore" onclick="toggleCollapsibleSection('q1-collapse', 'q1')">Read more</a></h3>
+        </div>
         <div id="q1-collapse" class="collapsible-section">
-
             <br>
             <h3 class="heder"> Doel/ inleiding</h3>
             <p class="descrption">
@@ -220,11 +223,11 @@
 
         </div>
 
-       <!----------------------- vraag 2 ---------------------------->
-
-        <h3 class="heder"> - Waar kan ik het portfolio hosten? <a id="q2" class="readMore"
-                onclick="toggleCollapsibleSection('q2-collapse', 'q2')">Read more</a></h3>
-
+        <!----------------------- vraag 2 ---------------------------->
+       <br> <div class="colorBox">
+        <h3 > - Waar kan ik het portfolio hosten? <a id="q2" class="readMore"
+                onclick="toggleCollapsibleSection('q2-collapse', 'q2')">Read more<i class="dropdown-icon"></i>&nbsp;</a></h3>
+        </div>
         <div id="q2-collapse" class="collapsible-section">
 
             <br>
@@ -236,13 +239,14 @@
                 is voor iedereen die het wil bekijken, wat mijn zichtbaarheid en mogelijkheden. Verder wil na mijn
                 studie deze portfolio aanpassen en gebruiken
                 voor de toekomst.<br> <br>
-               <br> <img class="smallimage" src="../Public/images/Group 4 1.png" />
+                <br> <img class="smallimage" src="../Public/images/Group 4 1.png" />
 
 
             </p>
 
 
-         <br> <br>   <h4 class="methodesText"> Expert Interview </h4>
+            <br> <br>
+            <h4 class="methodesText"> Expert Interview </h4>
 
             <p class="descrption">
                 Voor deze vraag heb ik een expertinterview gedaan met studenten en een docent om te kijken waar ze de
@@ -316,13 +320,13 @@
             </p> <br> <br> <br>
 
 
- <!----------------------- vraag 3 ---------------------------->
+            <!----------------------- vraag 3 ---------------------------->
 
 
         </div>
 
         <h3 class="heder"> - Hoe maak je een goed UX/UI portfolio?<a id="q3" class="readMore"
-                onclick="toggleCollapsibleSection('q3-collapse','q3')"> Read more</a></h3>
+                onclick="toggleCollapsibleSection('q3-collapse','q3')"> Read more<i class="dropdown-icon"></i></a></h3>
         <div id="q3-collapse" class="collapsible-section">
 
             <p class="descrption">
@@ -428,70 +432,86 @@
             <h4 class="heder"> Conclusie </h4>
 
             <p class="descrption">
-                Een UX/UI -portfolio is een hulpmiddel voor UX-UI designers om hun vaardigheden en ervaring te laten zien aan 
-                werkgevers. Het dient als een manier om mijzelf voor te stellen en drie hoofdvragen te beantwoorden: wie ik bent, 
-                wat ik kan en hoe ik werk en denk. Het doel van een UX/UI -portfolio is om de aandacht van werkgevers te trekken 
-                en hen ervan te overtuigen dat ik goed bij het bedrijf past. Een goed portfolio moet informatie bevatten over mijn achtergrond en motivaties,
-                 een samenvatting van mijn vaardigheden en relevante casestudy's die mijn werk laten zien. Het moet beknopt zijn, 
-                 gemakkelijk te begrijpen en snel mijn sterke punten en waarde als UX/UI-designer overbreng en de contact gegevens moet makkelijk te vinden.
+                Een UX/UI -portfolio is een hulpmiddel voor UX-UI designers om hun vaardigheden en ervaring te laten
+                zien aan
+                werkgevers. Het dient als een manier om mijzelf voor te stellen en drie hoofdvragen te beantwoorden: wie
+                ik bent,
+                wat ik kan en hoe ik werk en denk. Het doel van een UX/UI -portfolio is om de aandacht van werkgevers te
+                trekken
+                en hen ervan te overtuigen dat ik goed bij het bedrijf past. Een goed portfolio moet informatie bevatten
+                over mijn achtergrond en motivaties,
+                een samenvatting van mijn vaardigheden en relevante casestudy's die mijn werk laten zien. Het moet
+                beknopt zijn,
+                gemakkelijk te begrijpen en snel mijn sterke punten en waarde als UX/UI-designer overbreng en de contact
+                gegevens moet makkelijk te vinden.
 
 
-            </p> 
+            </p>
 
             <h4 class="heder"> Volgende stappen </h4>
 
             <p class="descrption">
                 Nadat ik heb begrijpen wie mijn doelgroep is en hoe ik een goed portfolio kan maken,
-                 kan ik gaan onderzoeken hoe een goed portfolio eruitzien zodat ik meer informatie kan halen hoe ik mijn portfolio goed kan maken en hoe ik het kan indelen.
+                kan ik gaan onderzoeken hoe een goed portfolio eruitzien zodat ik meer informatie kan halen hoe ik mijn
+                portfolio goed kan maken en hoe ik het kan indelen.
 
-            </p> <br> <br> <br> 
+            </p> <br> <br> <br>
 
         </div>
 
     </div>
-   <!----------------------- chapters ---------------------------->
-   <div class="chapter">
-    <h1 class="center">Design</h1>
+    <!----------------------- chapters ---------------------------->
+    <div class="chapter">
+        <h1 class="center">Design</h1>
 
-</div> <br> <br>
+    </div> <br> <br>
 
-<p class="descrption"> De designfase is een belangrijke stap, hier begin ik ;met brainstormen, schetsen prototypes maken en deze vervolgens testen en 
-    verbeteren op basis van gebruikersfeedback.  In deze fase wordt rekening gehouden met gebruikersbehoeften, beperkingen en projectdoelen om eerste 
-    concepten en prototypes te maken. Ook het uitvoeren van gebruikersonderzoek en testen, feedback te verzamelen, en verschillende iteraties van designtesten
-     te verbeteren.  
+    <p class="descrption"> De designfase is een belangrijke stap, hier begin ik ;met brainstormen, schetsen prototypes
+        maken en deze vervolgens testen en
+        verbeteren op basis van gebruikersfeedback. In deze fase wordt rekening gehouden met gebruikersbehoeften,
+        beperkingen en projectdoelen om eerste
+        concepten en prototypes te maken. Ook het uitvoeren van gebruikersonderzoek en testen, feedback te verzamelen,
+        en verschillende iteraties van designtesten
+        te verbeteren.
 
-</p>
-
-
-<h4 class="methodesText"> Flowchart</h4>
-
-<p class="descrption"> Een flowchart te maken is over het algemeen een goed idee te maken voordat ik de schetsen ga maken. De flowchart helpt bij het 
-    organiseren van de inhoud en structuur van het project, zodat ik kan bepalen welke informatie moet ik opnemen en hoe deze moet worden gepresenteerd. 
-    Wanner ik een duidelijk idee heb van de stroom en structuur, kan ik dan beginnen met schetsen of wireframes maken om beter beeld te krijgen. 
-    
-
-</p>
-
-<br> <img class="smallimage" src="../Public/images/flowchart.png" /> <br>
-
-<h4 class="heder"> Conclusie </h4>
-
-<p class="descrption">
-    Het maken van een flowchart heeft mij geholpen om goed idee te krijgen over hoe ik de inhoud en structuur van het project kan organiseren.
+    </p>
 
 
-</p>
+    <h4 class="methodesText"> Flowchart</h4>
 
-<h4 class="heder"> Volgende stappen </h4>
+    <p class="descrption"> Een flowchart te maken is over het algemeen een goed idee te maken voordat ik de schetsen ga
+        maken. De flowchart helpt bij het
+        organiseren van de inhoud en structuur van het project, zodat ik kan bepalen welke informatie moet ik opnemen en
+        hoe deze moet worden gepresenteerd.
+        Wanner ik een duidelijk idee heb van de stroom en structuur, kan ik dan beginnen met schetsen of wireframes
+        maken om beter beeld te krijgen.
 
-<p class="descrption">
-    Nadat ik de flowchart heb gemaakt en een beeld heb gekregen over hoe ik de inhoud en structuur van het project kan organiseren, 
-    kan ik beginnen met schetsen maken aan de hand van de flowchart om een idee te krijgen hoe het protfolio eruit gaat zien en wat moet erin.
 
-</p> <br> <br> <br>
+    </p>
+
+    <br> <img class="smallimage" src="../Public/images/flowchart.png" /> <br>
+
+    <h4 class="heder"> Conclusie </h4>
+
+    <p class="descrption">
+        Het maken van een flowchart heeft mij geholpen om goed idee te krijgen over hoe ik de inhoud en structuur van
+        het project kan organiseren.
 
 
-        <script src="../js/collaps.js"></script>
+    </p>
+
+    <h4 class="heder"> Volgende stappen </h4>
+
+    <p class="descrption">
+        Nadat ik de flowchart heb gemaakt en een beeld heb gekregen over hoe ik de inhoud en structuur van het project
+        kan organiseren,
+        kan ik beginnen met schetsen maken aan de hand van de flowchart om een idee te krijgen hoe het protfolio eruit
+        gaat zien en wat moet erin.
+
+    </p> <br> <br> <br>
+
+
+    <script src="../js/collaps.js"></script>
 </body>
 
 </html>

@@ -81,10 +81,11 @@
     }
   
     .logo{
-      margin-top: 10px;
+      margin-top: 0px;
       margin-right: 0%;
-      width: 10%;
-      height: 100%;
+      width: 13%;
+      height: 120%;
+      margin-left: 0px;
     }
 
     @media (max-width:1000px){
@@ -100,7 +101,7 @@
       }
   
   }
-    @media (max-width:500px){
+    @media (max-width:727px){
       .navlist {
         display: flex;
         width: 40%;
