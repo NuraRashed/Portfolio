@@ -4,17 +4,7 @@ function toggleCollapsibleSection(sectionId, btnId) {
   var dropdownBtn = document.getElementById(btnId);
 
 
-  if (!section.classList.contains('active')) {
 
-    section.style.display = 'none';
-
-  }
-  if (section.classList.contains('active')) {
-
-    section.style.display = 'block';
-
-  }
-  
   // Toggle the selected section
   section.classList.toggle('active');
   if (section.style.display === 'none') {

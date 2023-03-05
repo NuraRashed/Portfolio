@@ -79,17 +79,7 @@ margin-left: 45%;
 
 
 .collapsible-section {
-    display: none;
-  }
-  .dropdown-btn {
-    background-color: #f1f1f1;
-    color: #333;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  .dropdown-btn.active {
-    background-color: #ccc;
+    display: block;
   }
 
   .readMore{

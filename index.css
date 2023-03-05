@@ -17,10 +17,30 @@ body {
 
 }
 
+  
 .textName {
-
+    width: 30.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(40) alternate infinite;
     font-family: sans-serif;
 
+}
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 28.5ch; 
+  }
 }
 
 .textDescription {
