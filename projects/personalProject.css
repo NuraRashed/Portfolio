@@ -131,6 +131,7 @@ color: #f88d00;
     display: inline-block; /* Display images next to each other */
     width: 20%; /* Set image width to 50% of container */
     height: auto; /* Set image height to maintain aspect ratio */
+
   }
 
 
