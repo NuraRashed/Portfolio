@@ -104,9 +104,40 @@ color: #f88d00;
     margin-left: 30%;
   }
 
+
+  .designImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .middelImages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+    width: 35%;
+    margin-left: 25%;
+  }
+
+  .image-container {
+    text-align: center; /* Align images horizontally */
+  }
+  
+  .image-container img {
+    display: inline-block; /* Display images next to each other */
+    width: 20%; /* Set image width to 50% of container */
+    height: auto; /* Set image height to maintain aspect ratio */
+  }
+
   p{
     line-height: 28px;
 }
+
+
 
 .button {
   display: inline-block;
