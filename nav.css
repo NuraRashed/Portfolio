@@ -114,3 +114,34 @@
       }
   
   }
+
+
+  
+
+
+/* SCROLLBARR CSS STYLING */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ff9e1e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(121, 121, 121);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+
+/* Text selection */
+::selection {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
