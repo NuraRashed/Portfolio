@@ -98,9 +98,10 @@ body {
 
 .methodesText {
   margin-left: 10%;
-  color: rgb(236, 182, 182);
+  color: rgb(156, 109, 109);
   margin-left: 20%;
   margin-right: 20%;
+  font-size: 18px;
 }
 
 .smallimage {
@@ -128,7 +129,7 @@ body {
   justify-content: center;
   height: 35%;
   width: 35%;
-  margin-left: 25%;
+  margin-left: 30%;
 }
 
 .image-container {
@@ -217,11 +218,12 @@ p {
 
 .link{
   color: blue;
-  margin-left: 10%;
-  margin-right: 10%;
+  display:block;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .link:visited{
-  color: rgb(215, 167, 9);
+  color: blue;
 }
 @media (max-width:350px) {
 
